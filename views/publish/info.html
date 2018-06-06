@@ -1,0 +1,148 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#base" aria-controls="base" role="tab" data-toggle="tab">基本</a></li>
+            <li role="presentation"><a href="#config" aria-controls="config" role="tab" data-toggle="tab">配置</a></li>
+            <li role="presentation"><a href="#node" aria-controls="node" role="tab" data-toggle="tab">节点</a></li>
+        </ul>
+        <br>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="base">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <tbody>{{$project := .project}}{{$groupName := .groupName}}
+                        <tr>
+                            <td class="w20p">项目名</td>
+                            <td>{{$project.name}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w20p">项目组</td>
+                            <td>{{$groupName}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w20p">代码仓库</td>
+                            <td>{{$project.repository_url}}</td>
+                        </tr>
+                        <tr>
+                            <td>代码分支</td>
+                            <td>
+                                <strong>{{$project.branch}}</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>发布目录</td>
+                            <td>{{$project.code_path}}</td>
+                        </tr>
+                        <tr>
+                            <td>目录所属用户</td>
+                            <td>{{$project.code_dir_user}}</td>
+                        </tr>
+                        <tr>
+                            <td>更新时间</td>
+                            <td>{{dateFormat $project.update_time "Y-m-d H:i:s"}}</td>
+                        </tr>
+                        <tr>
+                            <td>上一次发布时间</td>
+                            <td>
+                                {{if eq $project.last_publish_time "0"}}
+                                0
+                                {{else}}
+                                {{dateFormat $project.last_publish_time "Y-m-d H:i:s"}}
+                                {{end}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>备注</td>
+                            <td>{{$project.comment}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="config">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong>前置命令</strong></div>
+                    <table class="table table-bordered table-hover">
+                        <tbody>{{$project := .project}}{{$groupName := .groupName}}
+                        <tr>
+                            <td class="w20p">命令</td>
+                            <td>
+                                <div class="col-sm-6">
+                                <pre>{{$project.pre_command}}</pre>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>执行方式</td>
+                            <td>
+                                {{if eq $project.pre_command_exec_type "1" }} 同步执行，遇到错误停止 {{end}}
+                                {{if eq $project.pre_command_exec_type "2" }} 同步执行，遇到错误继续 {{end}}
+                                {{if eq $project.pre_command_exec_type "3" }} 异步执行 {{end}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>超时时间</td>
+                            <td>{{$project.pre_command_exec_timeout}}s</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong>后置命令</strong></div>
+                    <table class="table table-bordered table-hover">
+                        <tbody>{{$project := .project}}{{$groupName := .groupName}}
+                        <tr>
+                            <td class="w20p">命令</td>
+                            <td>
+                                <div class="col-sm-6">
+                                    <pre>{{$project.post_command}}</pre>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>执行方式</td>
+                            <td>
+                                {{if eq $project.post_command_exec_type "1" }} 同步执行，遇到错误停止 {{end}}
+                                {{if eq $project.post_command_exec_type "2" }} 同步执行，遇到错误继续 {{end}}
+                                {{if eq $project.post_command_exec_type "3" }} 异步执行 {{end}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>超时时间</td>
+                            <td>{{$project.post_command_exec_timeout}}s</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="node">
+                <div class="panel panel-default">
+                <div class="table-responsive">{{$nodes := .nodes}}
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="w13p">节点IP</th>
+                            <th class="w8p">端口</th>
+                            <th>备注</th>
+                            <th class="w15p">修改时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {{range $node := $nodes}}
+                        <tr>
+                            <td>{{$node.ip}}</td>
+                            <td class="center">{{$node.port}}</td>
+                            <td>{{$node.comment}}</td>
+                            <td class="center">{{dateFormat $node.update_time "Y-m-d H:i:s"}}</td>
+                        </tr>
+                        {{end}}
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

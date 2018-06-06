@@ -1,0 +1,62 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="input-group">
+                    <a href="/nodes/add" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> 添加节点组 </a>
+                </div>
+            </div>
+            <form action="" method="get">
+                <div class="col-md-6">
+                    <div class="input-group">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input class="form-control" name="keyword" type="text" value="{{.keyword}}" placeholder="节点组名称">
+				            <span class="input-group-btn">
+				              <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
+				            </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th class="w8p">ID</th>
+                <th class="w13p">名称</th>
+                <th>备注</th>
+                <th class="w13p">创建时间</th>
+                <th class="w13p">修改时间</th>
+                <th class="w15p">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{range $nodeGroup := .nodeGroups}}
+            <tr>
+                <td class="center">{{$nodeGroup.nodes_id}}</td>
+                <td>{{$nodeGroup.name}}</td>
+                <td>{{$nodeGroup.comment}}</td>
+                <td class="center">{{dateFormat $nodeGroup.create_time "Y-m-d H:i:s"}}</td>
+                <td class="center">{{dateFormat $nodeGroup.update_time "Y-m-d H:i:s"}}</td>
+                <td class="center">
+                    <a name="edit" class="glyphicon glyphicon-edit" data-link="/nodes/edit?nodes_id={{$nodeGroup.nodes_id}}">修改</a>
+                    <a name="node" class="glyphicon glyphicon-list" data-link="/nodes/node?nodes_id={{$nodeGroup.nodes_id}}">节点</a>
+                    <a onclick="Layers.confirm('确定删除吗？', '/nodes/delete?nodes_id={{$nodeGroup.nodes_id}}');" class="remove glyphicon glyphicon-trash">删除</a>
+                </td>
+            </tr>
+            {{end}}
+            </tbody>
+        </table>
+    </div>
+    <div class="panel-footer">
+        {{template "paginator/default.html" .}}
+    </div>
+</div>
+<script type="text/javascript">
+    Layers.bindIframe("[name='edit']", "修改节点组信息", "400px", "850px");
+    Layers.bindIframe("[name='node']", "节点组节点列表", "500px", "1020px");
+</script>

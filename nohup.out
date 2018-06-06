@@ -1,0 +1,749 @@
+Author: wangyi
+Vserion: v0.8.1
+
+配置文件路径: ./conf/codepub.conf
+map[console:{"level":7, "color":true} file:{"level":7, "filename":"logs/codepub.log"}]
+console {"level":7, "color":true}
+file {"level":7, "filename":"logs/codepub.log"}
+2018/04/27 08:55:44 [1;34m[I] [asm_amd64.s:2361] http server Running on http://0.0.0.0:8080[0m
+2018/04/27 08:55:44 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 434.243074ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/04/27 08:55:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 259.263281ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/04/27 08:55:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 273.202305ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/04/27 08:55:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  86.681507ms|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/04/27 08:55:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 126.222419ms|   match|[44m GET     [0m /static/style/login.css[0m
+2018/04/27 08:55:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 133.196383ms|   match|[44m GET     [0m /static/style/login.js[0m
+2018/04/27 08:55:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 330.288011ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/04/27 08:55:47 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 1.616944958s|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/27 08:55:47 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 1.851150876s|   match|[44m GET     [0m /static/style/bkg.jpg[0m
+2018/04/27 08:55:47 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  1.86360165s|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/04/27 08:55:49 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 442.050174ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/27 08:55:50 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 436.482861ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/27 08:56:00 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  66.628239ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  95.300819ms|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  61.235354ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  96.564912ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  102.17566ms|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.446365ms|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  96.657604ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.712161ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.289991ms|   match|[44m GET     [0m /static/style/bootstrap-select/js/i18n/defaults-zh_CN.min.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  49.127948ms|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  60.345249ms|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  59.637499ms|   match|[44m GET     [0m /static/style/morris/morris.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  46.550082ms|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  61.464621ms|   match|[44m GET     [0m /static/style/bootstrap/js/bootstrap.min.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  52.703419ms|   match|[44m GET     [0m /static/style/jquery-chosen/chosen.jquery.min.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  65.234126ms|   match|[44m GET     [0m /static/style/morris/raphael.min.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  68.030003ms|   match|[44m GET     [0m /static/style/layui/layer/layer.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 100.131926ms|   match|[44m GET     [0m /static/style/morris/morris.min.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 104.840593ms|   match|[44m GET     [0m /static/style/jquery/jquery.form.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  10.001728ms|   match|[44m GET     [0m /static/style/common/layers.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 144.555046ms|   match|[44m GET     [0m /static/style/bootstrap-select/js/bootstrap-select.min.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  20.158736ms|   match|[44m GET     [0m /static/style/common/common.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  20.665275ms|   match|[44m GET     [0m /static/style/common/form.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   2.133243ms|   match|[44m GET     [0m /static/style/common/date.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   2.832546ms|   match|[44m GET     [0m /static/style/module/main.js[0m
+2018/04/27 08:56:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.364688ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/layer.css[0m
+2018/04/27 08:56:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  29.182076ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    143.993µs|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/04/27 08:56:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    389.554µs|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/04/27 08:56:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    455.673µs|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/04/27 08:56:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    724.185µs|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/04/27 08:56:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  29.827556ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:27 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.911585ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.178794ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.799475ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:30 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.546966ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:30 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 109.100942ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:31 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  28.523668ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:31 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.668347ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  65.366793ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.517092ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.645821ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:56:35 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.324701ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/04/27 08:56:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.151837ms|   match|[44m GET     [0m /node/list   r:/node/list/*[0m
+2018/04/27 08:56:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   9.813362ms|   match|[44m GET     [0m /static/style/module/node.js[0m
+2018/04/27 08:56:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.990207ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/04/27 08:57:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  24.154776ms|   match|[44m GET     [0m /log/actionInfo   r:/log/actioninfo/*[0m
+2018/04/27 08:57:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   35.50543ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/loading-1.gif[0m
+2018/04/27 08:57:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   61.30137ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/icon.png[0m
+2018/04/27 08:57:06 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  33.109654ms|   match|[44m GET     [0m /log/task   r:/log/task/*[0m
+2018/04/27 08:57:07 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   34.07548ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/04/27 08:57:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 197.914107ms|   match|[44m GET     [0m /log/task   r:/log/task/*[0m
+2018/04/27 08:57:12 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.130829ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/04/27 08:57:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.136852ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/04/27 08:57:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.726609ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/04/27 08:57:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.020407ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/04/27 08:57:50 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  20.495212ms|   match|[44m GET     [0m /log/task   r:/log/task/*[0m
+2018/04/27 08:58:07 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  14.292102ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/04/27 08:58:07 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    823.192µs|   match|[44m GET     [0m /static/style/module/task.js[0m
+2018/04/27 08:58:36 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.807164ms|   match|[44m GET     [0m /statistics/statistics   r:/statistics/statistics/*[0m
+2018/04/27 08:58:36 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 157.961856ms|   match|[44m GET     [0m /static/style/googleChart.js[0m
+2018/04/27 08:58:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  26.594343ms|   match|[44m GET     [0m /notice/add   r:/notice/add/*[0m
+2018/04/27 08:58:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.831692ms|   match|[44m GET     [0m /static/style/summernote/lang/summernote-zh-CN.min.js[0m
+2018/04/27 08:58:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   32.80283ms|   match|[44m GET     [0m /static/style/summernote/summernote.css[0m
+2018/04/27 08:58:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  38.001359ms|   match|[44m GET     [0m /static/style/summernote/summernote.js[0m
+2018/04/27 08:58:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  24.367448ms|   match|[44m GET     [0m /static/style/summernote/font/summernote.woff[0m
+2018/04/27 08:58:59 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  18.368192ms|   match|[44m GET     [0m /notice/list   r:/notice/list/*[0m
+2018/04/27 08:58:59 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.921965ms|   match|[44m GET     [0m /notice/list   r:/notice/list/*[0m
+2018/04/27 08:59:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.115903ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/04/27 08:59:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     291.89µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/04/27 08:59:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.351443ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/04/27 08:59:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.353481ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/04/27 08:59:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  25.607831ms|   match|[44m GET     [0m /notice/info   r:/notice/info/*[0m
+2018/04/27 08:59:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.619251ms|   match|[44m GET     [0m /notice/info   r:/notice/info/*[0m
+2018/04/27 08:59:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.488322ms|   match|[44m GET     [0m /profile/my   r:/profile/my/*[0m
+2018/04/27 08:59:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.503941ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/04/27 08:59:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.244911ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.016527ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.053891ms|   match|[44m GET     [0m /static/style/login.css[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.615702ms|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     54.231µs|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     43.249µs|   match|[44m GET     [0m /static/style/login.js[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     55.233µs|   match|[44m GET     [0m /static/style/bkg.jpg[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    159.949µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  39.978893ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.850078ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     48.794µs|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.174744ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/28 10:41:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[43m 404 [0m|     53.218µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2018/04/28 10:42:04 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.924517ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/28 10:42:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   12.68061ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/28 10:42:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.845297ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  15.875906ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    467.455µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.341094ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     43.377µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.075943ms|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|      74.55µs|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.252839ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    5.83179ms|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|      98.09µs|   match|[44m GET     [0m /static/style/morris/morris.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    167.585µs|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  18.004222ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|      37.68µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/i18n/defaults-zh_CN.min.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  19.782096ms|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     40.488µs|   match|[44m GET     [0m /static/style/jquery-chosen/chosen.jquery.min.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     32.702µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/bootstrap-select.min.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|      86.34µs|   match|[44m GET     [0m /static/style/morris/raphael.min.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   4.125963ms|   match|[44m GET     [0m /static/style/bootstrap/js/bootstrap.min.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     22.369µs|   match|[44m GET     [0m /static/style/layui/layer/layer.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     13.143µs|   match|[44m GET     [0m /static/style/morris/morris.min.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     70.407µs|   match|[44m GET     [0m /static/style/jquery/jquery.form.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     32.884µs|   match|[44m GET     [0m /static/style/common/form.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|      162.7µs|   match|[44m GET     [0m /static/style/module/main.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    364.502µs|   match|[44m GET     [0m /static/style/common/date.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     24.312µs|   match|[44m GET     [0m /static/style/common/common.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    269.843µs|   match|[44m GET     [0m /static/style/common/layers.js[0m
+2018/04/28 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     524.31µs|   match|[44m GET     [0m /static/style/layui/layer/theme/default/layer.css[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.880974ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    607.918µs|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.895293ms|   match|[44m GET     [0m /static/style/login.css[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     93.633µs|   match|[44m GET     [0m /static/style/login.js[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   9.652659ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.027882ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     38.398µs|   match|[44m GET     [0m /static/style/bkg.jpg[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    151.995µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.316748ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 10:10:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     46.234µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 10:10:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.419879ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 10:10:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.027013ms|   match|[44m GET     [0m /static/style/favicon.ico[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.002099ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.254307ms|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     3.3202ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     54.002µs|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     57.341µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    104.769µs|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.511829ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    561.791µs|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    944.772µs|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    280.641µs|   match|[44m GET     [0m /static/style/morris/morris.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    111.325µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/i18n/defaults-zh_CN.min.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     38.816µs|   match|[44m GET     [0m /static/style/bootstrap/js/bootstrap.min.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.175644ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     51.747µs|   match|[44m GET     [0m /static/style/jquery-chosen/chosen.jquery.min.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     57.158µs|   match|[44m GET     [0m /static/style/layui/layer/layer.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     17.704µs|   match|[44m GET     [0m /static/style/morris/morris.min.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     19.203µs|   match|[44m GET     [0m /static/style/morris/raphael.min.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    142.734µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/bootstrap-select.min.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    155.171µs|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     25.998µs|   match|[44m GET     [0m /static/style/common/common.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     16.216µs|   match|[44m GET     [0m /static/style/common/form.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     11.289µs|   match|[44m GET     [0m /static/style/common/layers.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     35.162µs|   match|[44m GET     [0m /static/style/jquery/jquery.form.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|      48.66µs|   match|[44m GET     [0m /static/style/common/date.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     30.758µs|   match|[44m GET     [0m /static/style/module/main.js[0m
+2018/05/03 10:10:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.900134ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/layer.css[0m
+2018/05/03 10:10:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    2.27357ms|   match|[44m GET     [0m /notice/add   r:/notice/add/*[0m
+2018/05/03 10:10:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    133.083µs|   match|[44m GET     [0m /static/style/summernote/lang/summernote-zh-CN.min.js[0m
+2018/05/03 10:10:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.568381ms|   match|[44m GET     [0m /static/style/summernote/summernote.js[0m
+2018/05/03 10:10:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.912095ms|   match|[44m GET     [0m /static/style/summernote/summernote.css[0m
+2018/05/03 10:10:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.011886ms|   match|[44m GET     [0m /static/style/summernote/font/summernote.woff[0m
+2018/05/03 10:10:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.959774ms|   match|[44m GET     [0m /notice/list   r:/notice/list/*[0m
+2018/05/03 10:10:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  48.145901ms|   match|[44m GET     [0m /group/list   r:/group/list/*[0m
+2018/05/03 10:10:41 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    3.33492ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 10:10:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     31.091µs|   match|[44m GET     [0m /static/style/layui/layer/theme/default/loading-1.gif[0m
+2018/05/03 10:10:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.466232ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/icon.png[0m
+2018/05/03 10:10:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  21.105443ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 10:10:47 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  15.940845ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 10:13:24 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.005993ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:13:24 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    401.512µs|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/05/03 10:13:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.777331ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:14:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  31.934112ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:15:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.974663ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:15:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.256353ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/03 10:16:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.573716ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:16:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.891559ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/03 10:16:36 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    2.83085ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 10:16:37 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.231689ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:37:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.712484ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 10:37:52 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.633807ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 10:37:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.874544ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 10:38:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.345791ms|   match|[44m GET     [0m /user/add   r:/user/add/*[0m
+2018/05/03 10:38:03 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.442738ms|   match|[44m GET     [0m /user/list   r:/user/list/*[0m
+2018/05/03 10:38:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.152514ms|   match|[44m GET     [0m /user/edit   r:/user/edit/*[0m
+2018/05/03 10:38:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.500183ms|   match|[44m GET     [0m /user/project   r:/user/project/*[0m
+2018/05/03 10:38:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    140.734µs|   match|[44m GET     [0m /static/style/module/user.js[0m
+2018/05/03 10:41:54 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  19.840617ms|   match|[44m GET     [0m /node/add   r:/node/add/*[0m
+2018/05/03 10:41:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  14.848056ms|   match|[44m GET     [0m /node/list   r:/node/list/*[0m
+2018/05/03 10:41:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    422.908µs|   match|[44m GET     [0m /static/style/module/node.js[0m
+2018/05/03 10:42:03 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  19.012422ms|   match|[44m GET     [0m /node/add   r:/node/add/*[0m
+2018/05/03 10:42:04 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.303655ms|   match|[44m GET     [0m /nodes/list   r:/nodes/list/*[0m
+2018/05/03 10:42:06 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  19.002413ms|   match|[44m GET     [0m /log/action   r:/log/action/*[0m
+2018/05/03 10:42:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.936437ms|   match|[44m GET     [0m /log/actionInfo   r:/log/actioninfo/*[0m
+2018/05/03 10:42:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.178059ms|   match|[44m GET     [0m /log/actionInfo   r:/log/actioninfo/*[0m
+Author: wangyi
+Vserion: v0.8.1
+
+配置文件路径: ./conf/codepub.conf
+map[console:{"level":7, "color":true} file:{"level":7, "filename":"logs/codepub.log"}]
+console {"level":7, "color":true}
+file {"level":7, "filename":"logs/codepub.log"}
+2018/05/03 10:59:53 [1;34m[I] [asm_amd64.s:2361] http server Running on http://0.0.0.0:8080[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.207286ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   5.101564ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   5.855764ms|   match|[44m GET     [0m /static/style/login.js[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.824125ms|   match|[44m GET     [0m /static/style/login.css[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.630733ms|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    6.09863ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  22.374093ms|   match|[44m GET     [0m /static/style/bkg.jpg[0m
+2018/05/03 10:59:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  22.964783ms|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 11:00:07 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.830531ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 11:00:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.363875ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 11:00:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     693.46µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 11:00:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.738787ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 11:00:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.611942ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 11:00:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.254978ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 11:00:16 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    9.08593ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 14:00:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    4.49338ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 14:00:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.022256ms|   match|[44m GET     [0m /static/style/login.css[0m
+2018/05/03 14:00:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.741794ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 14:00:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    169.459µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 14:00:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.662103ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 14:00:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.310058ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 14:01:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.803631ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 14:01:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.608184ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 14:01:16 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.613776ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 14:01:16 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   10.83371ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 14:01:22 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.910242ms|   match|[44m GET     [0m /nodes/list   r:/nodes/list/*[0m
+2018/05/03 14:01:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  20.007418ms|   match|[44m GET     [0m /nodes/node   r:/nodes/node/*[0m
+2018/05/03 14:01:34 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.939265ms|   match|[44m GET     [0m /nodes/edit   r:/nodes/edit/*[0m
+2018/05/03 14:01:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.940377ms|   match|[44m GET     [0m /node/add   r:/node/add/*[0m
+2018/05/03 14:01:41 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.632689ms|   match|[44m GET     [0m /node/list   r:/node/list/*[0m
+2018/05/03 14:02:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.830087ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:02:12 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.400441ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:02:16 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.504503ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:02:17 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.806663ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:02:22 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.822734ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:02:29 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.421344ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:02:30 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.666544ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:02:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.301785ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:04:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.811744ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:04:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.185166ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:04:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     129.35µs|   match|[44m GET     [0m /static/style/layui/layer/theme/default/loading-2.gif[0m
+2018/05/03 14:04:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     127.04µs|   match|[44m GET     [0m /static/style/module/task.js[0m
+2018/05/03 14:06:37 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.308121ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:06:37 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.872871ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:06:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.476515ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:06:42 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.430728ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:06:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.662654ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:06:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.179562ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:06:59 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.685916ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:07:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.036241ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:07:03 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.149298ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:07:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.519062ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:07:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.835958ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:07:17 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.895962ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:08:31 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   11.84118ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:08:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.961122ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:08:35 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  30.315121ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:08:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  24.543246ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 14:11:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.358825ms|   match|[44m GET     [0m /node/add   r:/node/add/*[0m
+2018/05/03 14:11:44 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    132.855µs|   match|[44m GET     [0m /static/style/jquery-chosen/chosen-sprite.png[0m
+2018/05/03 14:11:51 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.444811ms|   match|[44m GET     [0m /node/list   r:/node/list/*[0m
+2018/05/03 14:12:31 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.584029ms|   match|[44m GET     [0m /group/list   r:/group/list/*[0m
+2018/05/03 14:12:34 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  32.582916ms|   match|[44m GET     [0m /project/add   r:/project/add/*[0m
+2018/05/03 14:12:36 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.028338ms|   match|[44m GET     [0m /project/list   r:/project/list/*[0m
+2018/05/03 14:12:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.639818ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:26:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  32.924217ms|   match|[44m GET     [0m /project/node   r:/project/node/*[0m
+2018/05/03 14:26:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    189.742µs|   match|[44m GET     [0m /static/style/module/project.js[0m
+2018/05/03 14:26:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    4.09724ms|   match|[44m GET     [0m /project/node   r:/project/node/*[0m
+2018/05/03 14:26:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    2.91398ms|   match|[44m GET     [0m /project/config   r:/project/config/*[0m
+2018/05/03 14:26:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.857737ms|   match|[44m GET     [0m /project/config   r:/project/config/*[0m
+2018/05/03 14:26:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   12.15014ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:26:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   12.39582ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:26:41 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.456989ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 14:26:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.234353ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:26:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.541791ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 14:26:49 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.732992ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:26:52 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: EOF [0m
+2018/05/03 14:26:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.556863ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:26:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     63.753µs|   match|[44m GET     [0m /static/style/layui/layer/theme/default/loading-2.gif[0m
+2018/05/03 14:26:53 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:26:54 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:26:55 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:26:56 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:26:57 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:26:58 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:26:59 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:00 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:01 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:02 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:03 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:04 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:05 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:06 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:07 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:08 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:09 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:10 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:11 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:12 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:13 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:14 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:15 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:16 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:17 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:18 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:19 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:20 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:21 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:22 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:23 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:24 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:25 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:26 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:27 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:28 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:29 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:30 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:31 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:32 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:33 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:34 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:35 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:36 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:37 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:38 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:39 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:40 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:41 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:42 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:43 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:44 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:45 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:46 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:47 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:48 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:49 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:50 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:51 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:52 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:53 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:54 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:55 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:56 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:57 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:58 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:27:59 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:00 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:01 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:02 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:03 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:04 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:05 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:06 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:07 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:08 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:09 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:10 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:11 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:28:12 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:13 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:14 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:15 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:16 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:17 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:19 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:20 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:21 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:22 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:23 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:24 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:25 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:26 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:27 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:28 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:29 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:30 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:31 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:32 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.935147ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:28:33 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:34 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:34 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.587734ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:28:35 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:36 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:37 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:38 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:39 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.990875ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:28:40 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:41 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:41 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.765737ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:28:42 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:43 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.131377ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:28:44 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:45 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.176099ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:28:46 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:47 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:48 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:49 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.714451ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:28:49 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:50 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:51 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:52 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:53 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:54 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:55 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:56 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:57 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    1.37846ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:28:57 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:58 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:28:59 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:00 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.058252ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:29:01 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:02 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:03 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:04 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:05 [1;31m[E] [worker.go:79] codepub call agent error: The task not exists [0m
+2018/05/03 14:29:06 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:07 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:08 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:09 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:10 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:11 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:12 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:13 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:14 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:15 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:16 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:17 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:18 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:19 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:20 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:21 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:22 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:23 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:24 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:25 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:26 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:27 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:28 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:29 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:30 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:31 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:32 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:33 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:34 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:35 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:36 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:37 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:38 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:29:39 [1;31m[E] [worker.go:79] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+Author: wangyi
+Vserion: v0.8.1
+
+配置文件路径: ./conf/codepub.conf
+map[console:{"level":7, "color":true} file:{"level":7, "filename":"logs/codepub.log"}]
+console {"level":7, "color":true}
+file {"level":7, "filename":"logs/codepub.log"}
+2018/05/03 14:30:01 [1;31m[E] [worker.go:54] codepub connect agent tls handle error: dial tcp 192.168.0.232:9091: connect: connection refused [0m
+2018/05/03 14:30:01 [1;34m[I] [asm_amd64.s:2361] http server Running on http://0.0.0.0:8080[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.513491ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    532.358µs|   match|[44m GET     [0m /static/style/login.css[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   1.303838ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   1.352575ms|   match|[44m GET     [0m /static/style/login.js[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.496142ms|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.156317ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    150.599µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 14:30:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    3.71288ms|   match|[44m GET     [0m /static/style/bkg.jpg[0m
+2018/05/03 14:30:24 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     1.4303ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 14:30:24 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    209.831µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 14:30:24 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    993.267µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 14:30:24 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.815168ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 14:30:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.228561ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:30:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.754111ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:30:35 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  19.056139ms|   match|[44m GET     [0m /project/list   r:/project/list/*[0m
+2018/05/03 14:30:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.343137ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:30:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.936181ms|   match|[44m GET     [0m /project/config   r:/project/config/*[0m
+2018/05/03 14:30:49 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.104807ms|   match|[44m GET     [0m /project/node   r:/project/node/*[0m
+2018/05/03 14:30:49 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    159.047µs|   match|[44m GET     [0m /static/style/module/project.js[0m
+2018/05/03 14:31:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  28.154333ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:31:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.765229ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:31:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.740081ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:31:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.851385ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:32:12 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.394916ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:32:18 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.480339ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:32:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.434531ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:32:22 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.032424ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:33:07 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.017624ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:33:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.872804ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:33:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.777296ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:33:12 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.665789ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:33:59 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.269618ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:34:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.038456ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:34:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.251184ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:34:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.270957ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:34:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.455102ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:34:20 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.290748ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:34:25 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  15.930973ms|   match|[44m GET     [0m /publish/history   r:/publish/history/*[0m
+2018/05/03 14:34:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.575587ms|   match|[44m GET     [0m /project/add   r:/project/add/*[0m
+2018/05/03 14:34:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.145618ms|   match|[44m GET     [0m /project/list   r:/project/list/*[0m
+2018/05/03 14:34:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    2.76613ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:34:35 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   28.22844ms|   match|[44m GET     [0m /project/config   r:/project/config/*[0m
+2018/05/03 14:34:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  19.288347ms|   match|[44m GET     [0m /project/node   r:/project/node/*[0m
+2018/05/03 14:34:50 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.229683ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:34:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.439839ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:35:05 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.997452ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:35:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.964055ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:35:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.054292ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:35:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.746592ms|   match|[44m GET     [0m /project/add   r:/project/add/*[0m
+2018/05/03 14:35:27 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    8.41409ms|   match|[44m GET     [0m /project/list   r:/project/list/*[0m
+2018/05/03 14:35:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    5.14058ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:35:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.687095ms|   match|[44m GET     [0m /project/config   r:/project/config/*[0m
+2018/05/03 14:35:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.451698ms|   match|[44m GET     [0m /project/list   r:/project/list/*[0m
+2018/05/03 14:35:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.254739ms|   match|[44m GET     [0m /project/config   r:/project/config/*[0m
+2018/05/03 14:35:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.275379ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:35:47 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.684362ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:35:50 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.990315ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:36:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  26.823236ms|   match|[44m GET     [0m /project/add   r:/project/add/*[0m
+2018/05/03 14:36:34 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.249727ms|   match|[44m GET     [0m /project/list   r:/project/list/*[0m
+2018/05/03 14:36:37 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    6.07863ms|   match|[44m GET     [0m /project/edit   r:/project/edit/*[0m
+2018/05/03 14:36:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.713536ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:36:45 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.353016ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:36:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.583388ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:43:52 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.034179ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:43:52 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.192717ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:45:04 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.881525ms|   match|[44m GET     [0m /publish/reset   r:/publish/reset/*[0m
+2018/05/03 14:45:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    3.05928ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:45:34 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    4.90031ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:45:36 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.881544ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:45:41 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.713011ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:48:47 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.189215ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:48:48 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.079706ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:48:51 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    1.51215ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:48:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.923335ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:49:06 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.893008ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:49:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.903982ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:50:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    13.6287ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:50:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.253167ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:50:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  14.147896ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:54:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.888373ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:56:49 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.306148ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 14:56:51 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.302595ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:56:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.898745ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:56:54 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.111875ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:56:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.387179ms|   match|[44m GET     [0m /notice/list   r:/notice/list/*[0m
+2018/05/03 14:56:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.659363ms|   match|[44m GET     [0m /notice/info   r:/notice/info/*[0m
+2018/05/03 14:57:04 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.122618ms|   match|[44m GET     [0m /group/list   r:/group/list/*[0m
+2018/05/03 14:57:06 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.381019ms|   match|[44m GET     [0m /group/add   r:/group/add/*[0m
+2018/05/03 14:58:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.910329ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:58:15 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.774895ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:58:18 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.372972ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:58:54 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.470911ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.103202ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     53.943µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.532347ms|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.078303ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.894592ms|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.864425ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    102.674µs|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     33.932µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.427262ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   48.55206ms|   match|[44m GET     [0m /static/style/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.982979ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.271205ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.739095ms|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    539.755µs|   match|[44m GET     [0m /static/style/bootstrap/js/bootstrap.min.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    736.625µs|   match|[44m GET     [0m /static/style/jquery-chosen/chosen.jquery.min.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    1.09216ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|      324.8µs|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    245.587µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/bootstrap-select.min.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     45.807µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/i18n/defaults-zh_CN.min.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    244.679µs|   match|[44m GET     [0m /static/style/layui/layer/layer.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    183.338µs|   match|[44m GET     [0m /static/style/common/layers.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    459.718µs|   match|[44m GET     [0m /static/style/jquery/jquery.form.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    245.783µs|   match|[44m GET     [0m /static/style/common/form.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    197.254µs|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    200.023µs|   match|[44m GET     [0m /static/style/common/date.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    370.623µs|   match|[44m GET     [0m /static/style/common/common.js[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.750918ms|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/05/03 14:58:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.263206ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.240221ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    923.211µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.466315ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    352.876µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    403.325µs|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    586.642µs|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.731691ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     79.303µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|      59.45µs|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.056544ms|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    1.03283ms|   match|[44m GET     [0m /static/style/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  14.213845ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.102049ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.787361ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.225487ms|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    829.835µs|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     600.07µs|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    609.302µs|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    182.638µs|   match|[44m GET     [0m /static/style/jquery-chosen/chosen.jquery.min.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    478.228µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/bootstrap-select.min.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     123.74µs|   match|[44m GET     [0m /static/style/bootstrap-select/js/i18n/defaults-zh_CN.min.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.078662ms|   match|[44m GET     [0m /static/style/jquery/jquery.form.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.435397ms|   match|[44m GET     [0m /static/style/layui/layer/layer.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     132.42µs|   match|[44m GET     [0m /static/style/bootstrap/js/bootstrap.min.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|      52.83µs|   match|[44m GET     [0m /static/style/common/layers.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    158.654µs|   match|[44m GET     [0m /static/style/common/form.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     208.51µs|   match|[44m GET     [0m /static/style/common/common.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     64.697µs|   match|[44m GET     [0m /static/style/common/date.js[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    115.602µs|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.712956ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/layer.css[0m
+2018/05/03 14:58:56 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.011799ms|   match|[44m GET     [0m /static/style/bootstrap/fonts/glyphicons-halflings-regular.woff2[0m
+2018/05/03 14:58:58 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.957931ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 14:59:01 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.270029ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:59:17 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.634332ms|   match|[44m GET     [0m /publish/reset   r:/publish/reset/*[0m
+2018/05/03 14:59:23 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  50.867107ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 14:59:31 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.330247ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 14:59:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    8.69327ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.677678ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     71.676µs|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     46.451µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    105.882µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    114.272µs|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    860.279µs|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    114.193µs|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/05/03 15:05:08 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     83.987µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 15:05:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     41.861µs|   match|[44m GET     [0m /static/style/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2018/05/03 15:05:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.303474ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 15:05:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.163541ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:05:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    728.489µs|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/05/03 15:05:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.043967ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:05:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.994317ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 15:05:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.799364ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 15:05:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.402104ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:05:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    166.058µs|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/05/03 15:05:32 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    796.499µs|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/03 15:05:34 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.630125ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 15:05:37 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.377854ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 15:06:41 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  14.468177ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:06:42 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.862567ms|   match|[44m GET     [0m /static/style/bootstrap/fonts/glyphicons-halflings-regular.woff2[0m
+2018/05/03 15:06:46 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.503462ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.971313ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     35.305µs|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     49.388µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   1.467184ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|     72.404µs|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.328092ms|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     60.702µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.178253ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 15:07:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|   9.401984ms|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/05/03 15:07:27 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.126482ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:07:28 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.176169ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 15:07:31 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.388582ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 15:07:35 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.562504ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:07:40 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.926818ms|   match|[44m GET     [0m /publish/publish   r:/publish/publish/*[0m
+2018/05/03 15:07:43 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.261979ms|   match|[44m GET     [0m /publish/taskLog   r:/publish/tasklog/*[0m
+2018/05/03 15:07:51 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.470054ms|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css.map[0m
+2018/05/03 15:12:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.602785ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:12:54 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.233462ms|   match|[44m GET     [0m /publish/info   r:/publish/info/*[0m
+2018/05/03 15:28:12 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.917701ms|   match|[44m GET     [0m /task/center   r:/task/center/*[0m
+2018/05/03 15:28:13 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.378351ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:28:18 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.857865ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:28:19 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.283398ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/03 15:32:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   5.714074ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 15:32:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  10.706908ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 15:32:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.723426ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/03 15:32:02 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   6.216985ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 15:32:10 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.360099ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 15:32:26 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   1.739641ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/03 15:32:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   9.918692ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/03 15:32:33 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.678866ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/03 15:32:39 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.160215ms|   match|[44m GET     [0m /publish/project   r:/publish/project/*[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.343032ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    155.927µs|   match|[44m GET     [0m /static/style/animate.css[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     68.229µs|   match|[44m GET     [0m /static/style/login.css[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    159.613µs|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.513299ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    124.341µs|   match|[44m GET     [0m /static/style/login.js[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     69.904µs|   match|[44m GET     [0m /static/style/bkg.jpg[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.660338ms|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.120729ms|   match|[44m GET     [0m /login/index   r:/login/index/*[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|      41.98µs|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/04 14:33:38 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   2.614703ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/07 09:05:09 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   3.928194ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/07 09:05:11 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  28.094314ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/07 09:05:12 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  99.211211ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/07 09:05:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 466.182527ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/07 09:05:14 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 257.291486ms|   match|[44m GET     [0m /login/captcha   r:/login/captcha/*[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 266.300512ms|   match|[44m GET     [0m /main/index   r:/main/index/*[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  13.098284ms|   match|[44m GET     [0m /static/style/bem-kit.min.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  12.906308ms|   match|[44m GET     [0m /static/style/jquery.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|    7.21178ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   7.301636ms|   match|[44m GET     [0m /static/style/lightweight-admin-template.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  36.859699ms|   match|[44m GET     [0m /static/style/font-awesome/css/font-awesome.min.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.398274ms|   match|[44m GET     [0m /static/style/irfan-maulana.jpg[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   4.774117ms|   match|[44m GET     [0m /static/style/brand.png[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 177.071552ms|   match|[44m GET     [0m /static/style/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m| 190.325963ms|   match|[44m GET     [0m /main/default   r:/main/default/*[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  11.858796ms|   match|[44m GET     [0m /static/style/jquery-chosen/bootstrap-chosen.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  33.726002ms|   match|[44m GET     [0m /static/style/bootstrap-select/css/bootstrap-select.min.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|    131.083µs|   match|[44m GET     [0m /static/style/bootstrap/js/bootstrap.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|     66.778µs|   match|[44m GET     [0m /static/style/jquery-chosen/chosen.jquery.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  31.799496ms|   match|[44m GET     [0m /static/style/bootstrap/css/bootstrap.min.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  12.508015ms|   match|[44m GET     [0m /static/style/morris/morris.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  15.728948ms|   match|[44m GET     [0m /static/style/bootstrap-select/js/i18n/defaults-zh_CN.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  47.408148ms|   match|[44m GET     [0m /static/style/content-style.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 100.392651ms|   match|[44m GET     [0m /static/style/morris/morris.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  69.555784ms|   match|[44m GET     [0m /static/style/layui/layer/layer.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  16.153196ms|   match|[44m GET     [0m /static/style/jquery/jquery.form.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 100.585021ms|   match|[44m GET     [0m /static/style/bootstrap-select/js/bootstrap-select.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 198.514603ms|   match|[44m GET     [0m /static/style/morris/raphael.min.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  41.527707ms|   match|[44m GET     [0m /static/style/common/layers.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  38.405595ms|   match|[44m GET     [0m /static/style/common/common.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  31.895831ms|   match|[44m GET     [0m /static/style/common/date.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  31.072103ms|   match|[44m GET     [0m /static/style/common/form.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m|  18.869843ms|   match|[44m GET     [0m /static/style/module/main.js[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  65.647429ms|   match|[44m GET     [0m /static/style/layui/layer/theme/default/layer.css[0m
+2018/05/07 09:05:21 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  28.847657ms|   match|[44m GET     [0m /static/style/bootstrap/fonts/glyphicons-halflings-regular.woff2[0m
+2018/05/07 09:05:51 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  67.513581ms|   match|[44m GET     [0m /profile/my   r:/profile/my/*[0m
+2018/05/07 09:05:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  16.236105ms|   match|[44m GET     [0m /notice/add   r:/notice/add/*[0m
+2018/05/07 09:05:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  15.907161ms|   match|[44m GET     [0m /static/style/summernote/lang/summernote-zh-CN.min.js[0m
+2018/05/07 09:05:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 207.472052ms|   match|[44m GET     [0m /static/style/summernote/summernote.js[0m
+2018/05/07 09:05:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[47m 304 [0m| 215.653936ms|   match|[44m GET     [0m /static/style/summernote/summernote.css[0m
+2018/05/07 09:05:53 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|   8.327046ms|   match|[44m GET     [0m /static/style/summernote/font/summernote.woff[0m
+2018/05/07 09:05:55 [1;44m[D] [server.go:2694] |  192.168.0.247|[42m 200 [0m|  51.383235ms|   match|[44m GET     [0m /nodes/list   r:/nodes/list/*[0m
